@@ -11,14 +11,13 @@
 
         public string Surname { get; set; }
 
-        public int? CourseId { get; set; }
-        
-        public Course Course { get; set; }
+        public string Course { get; set; }
 
         public Student()
         {
             Name = string.Empty;
             Surname = string.Empty;
+            Course = string.Empty;
         }
 
     }
