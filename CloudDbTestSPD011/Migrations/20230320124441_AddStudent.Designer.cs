@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace CloudDbTestSPD011.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230320115906_AddStudent")]
+    [Migration("20230320124441_AddStudent")]
     partial class AddStudent
     {
         /// <inheritdoc />
