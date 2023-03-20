@@ -1,8 +1,5 @@
 ﻿namespace CloudDbTestSPD011.Model
 {
-    /// <summary>
-    /// Студент
-    /// </summary>
     public class Student
     {
         public int Id { get; set; }
